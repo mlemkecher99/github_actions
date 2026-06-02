@@ -15,8 +15,3 @@ jobs:
           python3 -V
           touch my_file_with_workflow.py
           ls -l
-      - name: git script
-        run: |
-          git commit -m "my first action"
-          git push
-          
